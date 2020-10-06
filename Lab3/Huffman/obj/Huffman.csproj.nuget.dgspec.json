@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cathy\\source\\Lab3\\Huffman\\Huffman.csproj": {}
+    "C:\\Users\\Zer0\\Source\\Repos\\Lab-3-Compresion-Huffman\\Lab3\\Huffman\\Huffman.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cathy\\source\\Lab3\\Huffman\\Huffman.csproj": {
+    "C:\\Users\\Zer0\\Source\\Repos\\Lab-3-Compresion-Huffman\\Lab3\\Huffman\\Huffman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cathy\\source\\Lab3\\Huffman\\Huffman.csproj",
+        "projectUniqueName": "C:\\Users\\Zer0\\Source\\Repos\\Lab-3-Compresion-Huffman\\Lab3\\Huffman\\Huffman.csproj",
         "projectName": "Huffman",
-        "projectPath": "C:\\Users\\Cathy\\source\\Lab3\\Huffman\\Huffman.csproj",
-        "packagesPath": "C:\\Users\\Cathy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cathy\\source\\Lab3\\Huffman\\obj\\",
+        "projectPath": "C:\\Users\\Zer0\\Source\\Repos\\Lab-3-Compresion-Huffman\\Lab3\\Huffman\\Huffman.csproj",
+        "packagesPath": "C:\\Users\\Zer0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zer0\\Source\\Repos\\Lab-3-Compresion-Huffman\\Lab3\\Huffman\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Cathy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "D:\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -56,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

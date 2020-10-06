@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IYKVdyqL6LEN6xsQAgvfg+M8LPrkNwZmmYepnO/Ewuw2MN9RUsCopO6Pp4mo3DQhcXE7AsMGkj4gOl321BCCMg==",
+  "dgSpecHash": "8UxGe6yiepILkskbmQrbxoWVfsMm2OSv3n/fJEp3LcsxLTO5roVHW6YFAwMDrLK2JtcruzQx848+4fCk7BcP2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cathy\\source\\Lab3\\Huffman\\Huffman.csproj",
+  "projectFilePath": "C:\\Users\\Zer0\\Source\\Repos\\Lab-3-Compresion-Huffman\\Lab3\\Huffman\\Huffman.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
