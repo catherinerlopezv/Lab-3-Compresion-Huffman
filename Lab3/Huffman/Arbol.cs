@@ -55,7 +55,7 @@ namespace Huffman
 
             path = path.Replace(fit.Extension, ".hdef");
 
-            Serializer.GuardarArchivoBinario<Arbol>(path, this);
+            Serializar.GuardarArchivoBinario<Arbol>(path, this);
         }
     }
 }
