@@ -1,15 +1,16 @@
 ﻿using System.IO;
+using System;
 
 
 namespace Huffman
 {
-    public class Operacioens
+    public class Operaciones
     {
         
         public string path="";
         public string root = "";
       
-        public Operacioens(string path, string root)
+        public Operaciones(string path, string root)
         {
             this.path = path;
             this.root = root;
@@ -31,7 +32,7 @@ namespace Huffman
             string root2 = root;
             string root3 = root;
             root = root + @"\\Upload\\Comprimido.huff";
-            byte[] fileBytes = FileHelper.GetArchivoBytes(@root);
+            byte[] fileBytes = Manejar.GetArchivoBytes(@root);
             root3 = root3 + @"\\Escritoriovpn.hdef";
             string bb = HuffmanEncodeFile.Decode(fileBytes, @root3);
             root = root2 + @"\\Upload\\DescomprimidoHuff.txt";

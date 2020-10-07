@@ -80,7 +80,7 @@ namespace Huffman
                 bitBuffer.RemoveRange(0, 8);
             };
 
-            foreach (var b in FileHelper.GetArchivoBytes(_filePath))
+            foreach (var b in Manejar.GetArchivoBytes(_filePath))
             {
                 bitBuffer.AddRange(encodeTable[b]);
 

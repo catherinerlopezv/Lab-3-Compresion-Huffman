@@ -1,4 +1,5 @@
 ﻿using System;
+using Huffman;
 
 namespace Prueba
 {
@@ -7,6 +8,14 @@ namespace Prueba
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+      
+            
+            Operaciones imp = new Operaciones("Prueba", "Algo");
+
+            imp.Comprimir();
+            
+            
+
         }
     }
 }
