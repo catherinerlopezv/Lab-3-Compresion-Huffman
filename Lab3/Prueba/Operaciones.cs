@@ -23,7 +23,7 @@ namespace Huffman
             root = root + @"\\Escritoriovpn.hdef";
             HuffmanEncodeFile hef = new HuffmanEncodeFile(@path, @root);
             byte[] b = hef.Encode();
-            root = root2 + @"\\Upload\\Comprimido.huff";
+            root = @"..\\..\\..\\Comprimido.huff";
             File.WriteAllBytes(@root, b);
         }
 
@@ -31,11 +31,11 @@ namespace Huffman
         {
             string root2 = root;
             string root3 = root;
-            root = root + @"\\Upload\\Comprimido.huff";
-            byte[] fileBytes = Manejar.GetArchivoBytes(@root);
-            root3 = root3 + @"\\Escritoriovpn.hdef";
+            root = @"..\\..\\..\\Comprimido.huff";
+            byte[] fileBytes = Manejar.GetArchivoBytes(@"..\\..\\..\\Comprimido.huff");
+            root3 =   @"Arbol\\Escritoriovpn.hdef";
             string bb = HuffmanEncodeFile.Decode(fileBytes, @root3);
-            root = root2 + @"\\Upload\\DescomprimidoHuff.txt";
+            root = root2 + @"..\\..\\DescomprimidoHuff.txt";
             File.WriteAllText(@root, bb);
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using Huffman;
 
 namespace Prueba
@@ -7,14 +8,25 @@ namespace Prueba
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-      
-            
-            Operaciones imp = new Operaciones("Prueba", "Algo");
+            Console.Write("Escribir texto: ");
+            string texto = Console.ReadLine();
+
+
+
+           
+
+            using (StreamWriter outputFile = new StreamWriter("Prueba.txt"))
+            {
+                    outputFile.WriteLine(texto);
+            }
+
+
+
+            Operaciones imp = new Operaciones("Prueba.txt", "Arbol");
 
             imp.Comprimir();
-            
-            
+            imp.Descomporimir();
+
 
         }
     }
