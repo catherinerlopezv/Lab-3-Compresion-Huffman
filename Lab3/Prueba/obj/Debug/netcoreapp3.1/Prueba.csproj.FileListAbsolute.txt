@@ -11,3 +11,16 @@ C:\Users\Zer0\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\bin\Debug\netcor
 C:\Users\Zer0\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\obj\Debug\netcoreapp3.1\Prueba.dll
 C:\Users\Zer0\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\obj\Debug\netcoreapp3.1\Prueba.pdb
 C:\Users\Zer0\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\obj\Debug\netcoreapp3.1\Prueba.genruntimeconfig.cache
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\bin\Debug\netcoreapp3.1\Prueba.exe
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\bin\Debug\netcoreapp3.1\Prueba.deps.json
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\bin\Debug\netcoreapp3.1\Prueba.runtimeconfig.json
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\bin\Debug\netcoreapp3.1\Prueba.runtimeconfig.dev.json
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\bin\Debug\netcoreapp3.1\Prueba.dll
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\bin\Debug\netcoreapp3.1\Prueba.pdb
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\obj\Debug\netcoreapp3.1\Prueba.csprojAssemblyReference.cache
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\obj\Debug\netcoreapp3.1\Prueba.AssemblyInfoInputs.cache
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\obj\Debug\netcoreapp3.1\Prueba.AssemblyInfo.cs
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\obj\Debug\netcoreapp3.1\Prueba.csproj.CoreCompileInputs.cache
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\obj\Debug\netcoreapp3.1\Prueba.dll
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\obj\Debug\netcoreapp3.1\Prueba.pdb
+C:\Users\Cathy\Source\Repos\Lab-3-Compresion-Huffman\Lab3\Prueba\obj\Debug\netcoreapp3.1\Prueba.genruntimeconfig.cache

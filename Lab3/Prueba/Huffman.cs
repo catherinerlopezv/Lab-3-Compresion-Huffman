@@ -129,9 +129,9 @@ namespace Huffman
             foreach (bool bit in bits)
             {
                 if (!bit)
-                    localNode = localNode.IzqHijo;
+                    localNode = localNode.HijoIzqu;
                 else
-                    localNode = localNode.DerHijo;
+                    localNode = localNode.HijoDer;
 
                 if (localNode.Key == -1)
                     break;
@@ -170,16 +170,16 @@ namespace Huffman
             {
                 //Order ascending on the order of values so low values are first.
                 //Sort descending on the key so that newly formed trees are pushed behind "un-treed" values
-                priorityQueue = priorityQueue.OrderBy(x => x.Value).ThenByDescending(x => x.Key).ToList();
+                priorityQueue = priorityQueue.OrderBy(x => x.Valor).ThenByDescending(x => x.Key).ToList();
 
                 var btnLeft = priorityQueue[0];
-                btnLeft.BitValue = false;
+                btnLeft.BitVal = false;
 
                 var btnRight = priorityQueue[1];
-                btnRight.BitValue = true;
+                btnRight.BitVal = true;
 
                 //New parent node gets the value of the two Nodes combined value
-                var btnParent = new Arbol() { Key = null, Value = btnLeft.Value + btnRight.Value };
+                var btnParent = new Arbol() { Key = null, Valor = btnLeft.Valor + btnRight.Valor };
 
                 btnParent.AgregandoHijos(btnLeft, btnRight);
 
@@ -203,7 +203,7 @@ namespace Huffman
             CrawlTree(btn.Padre);
 
             //Add the keys recursively so it reads correctly when travelling down the tree from root.
-            _bitString.Add(btn.BitValue);
+            _bitString.Add(btn.BitVal);
         }
 
         private byte ConvertToByte(BitArray bits)
@@ -247,10 +247,10 @@ namespace Huffman
             //Ignore the chars with a count of 0
             foreach (var kvp in lookup)
                 if (kvp.Value > 0)
-                    _priorityQueue.Add(new Arbol() { Key = kvp.Key, Value = kvp.Value });
+                    _priorityQueue.Add(new Arbol() { Key = kvp.Key, Valor = kvp.Value });
 
             //Add EOF character
-            _priorityQueue.Add(new Arbol() { Key = -1, Value = 1 });
+            _priorityQueue.Add(new Arbol() { Key = -1, Valor = 1 });
         }
     }
 

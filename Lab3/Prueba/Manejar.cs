@@ -8,13 +8,13 @@ namespace Huffman
     public class Manejar
     {
 
-        static Encoding enc = Encoding.GetEncoding("us-ascii",new EncoderExceptionFallback(),   new DecoderExceptionFallback());
+        static Encoding encod = Encoding.GetEncoding("us-ascii",new EncoderExceptionFallback(),   new DecoderExceptionFallback());
 
         public static void EscribirArchivoBinario(byte[] bytes, string fileName)
         {
             using (var crearArch = File.Create(@fileName))
             {
-                using (var escribirbin = new BinaryWriter(crearArch, enc))
+                using (var escribirbin = new BinaryWriter(crearArch, encod))
                 {
                     escribirbin.Write(bytes);
 
@@ -31,7 +31,7 @@ namespace Huffman
 
             using (var crearArch = File.Open(fileName, FileMode.Open, FileAccess.Read))
             {
-                using (var leerbin = new BinaryReader(crearArch, enc))
+                using (var leerbin = new BinaryReader(crearArch, encod))
                 {
                     bytes = leerbin.ReadBytes(Convert.ToInt32(crearArch.Length));
 
