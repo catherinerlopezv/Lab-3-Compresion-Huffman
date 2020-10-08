@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cathy\\Source\\Repos\\Lab-3-Compresion-Huffman\\Lab3\\Lab3\\Lab3.csproj": {}
+    "C:\\Users\\Cathy\\source\\repos\\Lab-3-Compresion-Huffman\\Lab3\\Lab3\\Lab3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cathy\\Source\\Repos\\Lab-3-Compresion-Huffman\\Lab3\\Lab3\\Lab3.csproj": {
+    "C:\\Users\\Cathy\\source\\repos\\Lab-3-Compresion-Huffman\\Lab3\\Lab3\\Lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cathy\\Source\\Repos\\Lab-3-Compresion-Huffman\\Lab3\\Lab3\\Lab3.csproj",
+        "projectUniqueName": "C:\\Users\\Cathy\\source\\repos\\Lab-3-Compresion-Huffman\\Lab3\\Lab3\\Lab3.csproj",
         "projectName": "Lab3",
-        "projectPath": "C:\\Users\\Cathy\\Source\\Repos\\Lab-3-Compresion-Huffman\\Lab3\\Lab3\\Lab3.csproj",
+        "projectPath": "C:\\Users\\Cathy\\source\\repos\\Lab-3-Compresion-Huffman\\Lab3\\Lab3\\Lab3.csproj",
         "packagesPath": "C:\\Users\\Cathy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cathy\\Source\\Repos\\Lab-3-Compresion-Huffman\\Lab3\\Lab3\\obj\\",
+        "outputPath": "C:\\Users\\Cathy\\source\\repos\\Lab-3-Compresion-Huffman\\Lab3\\Lab3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
