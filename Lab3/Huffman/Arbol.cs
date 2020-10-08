@@ -9,36 +9,37 @@ namespace Huffman
     [Serializable]
     public class Arbol
     {
+        //nodo 
         public enum NodeDirection
         {
-            Left,
-            Right
+            Izquierdo,
+            Derecho
         }
         public Arbol() { }
 
 
         public Arbol Padre = null;
-        public Arbol IzqHijo = null;
-        public Arbol DerHijo = null;
+        public Arbol HijoIzqu = null;
+        public Arbol HijoDer = null;
 
-        public bool BitValue;
+        public bool BitVal;
         public int? Key { get; set; }
-        public ulong Value { get; set; }
+        public ulong Valor { get; set; }
 
         public void AgregandoHijos(Arbol hijoIzqNodo, Arbol hijoDerNodo)
         {
-            AgragandoHijo(hijoIzqNodo, NodeDirection.Left);
-            AgragandoHijo(hijoDerNodo, NodeDirection.Right);
+            AgragandoHijo(hijoIzqNodo, NodeDirection.Izquierdo);
+            AgragandoHijo(hijoDerNodo, NodeDirection.Derecho);
         }
 
         public void AgragandoHijo(Arbol btn, NodeDirection nd)
         {
             btn.Padre = this;
 
-            if (nd == NodeDirection.Left)
-                this.IzqHijo = btn;
+            if (nd == NodeDirection.Izquierdo)
+                this.HijoIzqu = btn;
             else
-                this.DerHijo = btn;
+                this.HijoDer = btn;
         }
 
         public char KeyAsChar
