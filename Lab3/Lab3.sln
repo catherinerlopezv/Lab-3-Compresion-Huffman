@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3", "Lab3\Lab3.csproj", "{CFFD7B8B-6DF0-4680-BEB5-CF4D8DFB73AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab3", "Lab3\Lab3.csproj", "{CFFD7B8B-6DF0-4680-BEB5-CF4D8DFB73AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Huffman", "Huffman\Huffman.csproj", "{F4E5A2C1-1F09-4C49-86B5-2898E5811118}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Huffman", "Huffman\Huffman.csproj", "{F4E5A2C1-1F09-4C49-86B5-2898E5811118}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prueba", "Prueba\Prueba.csproj", "{8F305BED-1E6A-4115-9874-8D9B8C03F948}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuffmanPrueba", "Prueba\HuffmanPrueba.csproj", "{8F305BED-1E6A-4115-9874-8D9B8C03F948}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
