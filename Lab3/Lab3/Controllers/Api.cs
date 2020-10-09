@@ -15,7 +15,8 @@ namespace Lab3.Controllers
     public class Api : ControllerBase
     {
         public static IWebHostEnvironment _environment;
-
+        public static string nombreArchivoOriginal;
+        public static string ubicacionC;
         public Api(IWebHostEnvironment environment)
         {
             _environment = environment;
@@ -26,6 +27,7 @@ namespace Lab3.Controllers
             public IFormFile files { get; set; }
 
         }
+
 
         [HttpPost("compress")]
         public IActionResult post([FromForm]FileUploadAPI objFile)
@@ -41,12 +43,16 @@ namespace Lab3.Controllers
                     }
                     using (FileStream fileStream = System.IO.File.Create(_environment.WebRootPath + "\\Upload\\" + objFile.files.FileName))
                     {
+                        nombreArchivoOriginal = objFile.files.FileName;
                         objFile.files.CopyTo(fileStream);
                         fileStream.Flush();
                         fileStream.Close();
                         string s = @_environment.WebRootPath;
                         Operaciones imp = new Operaciones(fileStream.Name, s);
                         imp.Comprimir();
+
+                        ubicacionC = _environment.WebRootPath + "\\Upload\\" + objFile.files.FileName;
+
 
                         return Ok();
 
@@ -70,7 +76,13 @@ namespace Lab3.Controllers
 
 
 
-    
+        [HttpGet("compressions")]
+        public IEnumerable<Json> Get()
+        {
+            return Informacion.Instance.informacion.Select(x => new Json { nombreArchivo=nombreArchivoOriginal,ubicacionComprimido=ubicacionC,
+                factorCompresion=x.factorCompresion,razonCompresion=x.razonCompresion,porcentajeCompresion=x.porcentajeCompresion});
+            }
+
 
 
         [HttpPost("decompress")]
