@@ -48,11 +48,11 @@ namespace Lab3.Controllers
                         fileStream.Flush();
                         fileStream.Close();
                         string s = @_environment.WebRootPath;
-                        Operaciones imp = new Operaciones(fileStream.Name, s);
+                        string temporal = objFile.files.FileName.ToString();
+                        Operaciones imp = new Operaciones(fileStream.Name, s,temporal);
                         imp.Comprimir();
 
-                        ubicacionC = _environment.WebRootPath + "\\Upload\\" + objFile.files.FileName;
-
+                        
 
                         return Ok();
 
@@ -103,8 +103,10 @@ namespace Lab3.Controllers
                         fileStream.Flush();
                         fileStream.Close();
                         string s = @_environment.WebRootPath;
-                        Operaciones imp = new Operaciones(fileStream.Name, s);
+                        string temporal = objFile.files.FileName.ToString();
+                        Operaciones imp = new Operaciones(fileStream.Name, s,temporal);
                         imp.Descomporimir();
+                        ubicacionC = _environment.WebRootPath + "\\Upload\\" + objFile.files.FileName;
 
                         return Ok();
 
